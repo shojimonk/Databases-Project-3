@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Databases_Project_03</name>
+    </assembly>
+    <members>
+        <member name="T:Assignment3.DataAccess">
+            <summary>
+            accesses database
+            </summary>
+        </member>
+        <member name="M:Assignment3.DataAccess.Main">
+            <summary>
+            Main method containing method calls for SQL queries to be run.
+            </summary>
+        </member>
+        <member name="M:Assignment3.DataAccess.Connect">
+            <summary>
+            Builds connection and returns connection string.
+            </summary>
+            <returns> NpgsqlConnection object</returns>
+        </member>
+        <member name="M:Assignment3.DataAccess.Rowcount(System.Boolean,System.Boolean)">
+            <summary>
+            Calls pre-set SQL query based on status of boolean flags and counts rows returned by query
+            </summary>
+            <param name="hasindex"> boolean if SQL query on indexed table or not</param>
+            <param name="haswhere"> boolean if SQL query to include "where" clause</param>
+            <returns> long integer of row count of query</returns>
+        </member>
+        <member name="M:Assignment3.DataAccess.explainAnalyze(System.Boolean)">
+            <summary>
+            Calls explain analyze on same SQL query as "Rowcount" method, on indexed or non-indexed table.
+            </summary>
+            <param name="hasindex"> boolean if query to be run on indexed table</param>
+            <returns> string of explain analyze results</returns>
+        </member>
+        <member name="M:Assignment3.DataAccess.Timing(System.Boolean,System.Boolean,System.Boolean)">
+            <summary>
+            method that calls other SQL call methods, and times their total execution.
+            </summary>
+            <param name="hasindex"> SQL </param>
+            <param name="haswhere"></param>
+            <param name="analyze"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

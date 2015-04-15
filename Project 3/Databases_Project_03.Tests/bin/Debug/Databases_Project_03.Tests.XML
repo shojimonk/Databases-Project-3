@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Databases_Project_03.Tests</name>
+    </assembly>
+    <members>
+        <member name="T:Databases_Project_03.Tests.UnitTest1">
+            <summary>
+            Class for testing comparisons made between an indexed and a normal table.
+            </summary>
+        </member>
+        <member name="M:Databases_Project_03.Tests.UnitTest1.ResultsTest">
+            <summary>
+            Compare if results from indexed and non indexed table are equal and greater than zero.
+            </summary>
+        </member>
+        <member name="M:Databases_Project_03.Tests.UnitTest1.WhereResultsTest">
+            <summary>
+            Compare if results from indexed and non indexed table are equal and greater than zero
+            when "where" condition is called. 
+            </summary>
+        </member>
+        <member name="M:Databases_Project_03.Tests.UnitTest1.PerformanceTest">
+            <summary>
+            Check if indexed query is faster than non indexed.
+            </summary>
+        </member>
+        <member name="M:Databases_Project_03.Tests.UnitTest1.ScanUsedTest">
+            <summary>
+            Check which method (sequential scan or index) was used when queries were called. 
+            </summary>
+        </member>
+    </members>
+</doc>

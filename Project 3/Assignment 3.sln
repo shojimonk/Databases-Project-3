@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D08C29AC-AF1F-4BAC-8C3C-0C5BA4D4F013}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Databases_Project_03", "Databases_Project_03\Databases_Project_03.csproj", "{B0FE4B2E-35F8-4051-B2E6-A21D2796CC58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Databases_Project_03.Tests", "Databases_Project_03.Tests\Databases_Project_03.Tests.csproj", "{1170A847-9A38-4E30-8195-9E4769F9AA0B}"
+EndProject
+Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "Project_03_Documentation", "Project_03_Documentation\Project_03_Documentation.shfbproj", "{AB4A77BD-7B3D-436A-B88D-DCEE21E7ECE6}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://irios.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Databases_Project_03\\Databases_Project_03.csproj
+		SccProjectName1 = Databases_Project_03
+		SccLocalPath1 = Databases_Project_03
+		SccProjectUniqueName2 = Databases_Project_03.Tests\\Databases_Project_03.Tests.csproj
+		SccProjectName2 = Databases_Project_03.Tests
+		SccLocalPath2 = Databases_Project_03.Tests
+		SccProjectUniqueName3 = Project_03_Documentation\\Project_03_Documentation.shfbproj
+		SccProjectName3 = Project_03_Documentation
+		SccLocalPath3 = Project_03_Documentation
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0FE4B2E-35F8-4051-B2E6-A21D2796CC58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0FE4B2E-35F8-4051-B2E6-A21D2796CC58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0FE4B2E-35F8-4051-B2E6-A21D2796CC58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0FE4B2E-35F8-4051-B2E6-A21D2796CC58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1170A847-9A38-4E30-8195-9E4769F9AA0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1170A847-9A38-4E30-8195-9E4769F9AA0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1170A847-9A38-4E30-8195-9E4769F9AA0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1170A847-9A38-4E30-8195-9E4769F9AA0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB4A77BD-7B3D-436A-B88D-DCEE21E7ECE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB4A77BD-7B3D-436A-B88D-DCEE21E7ECE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB4A77BD-7B3D-436A-B88D-DCEE21E7ECE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB4A77BD-7B3D-436A-B88D-DCEE21E7ECE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
